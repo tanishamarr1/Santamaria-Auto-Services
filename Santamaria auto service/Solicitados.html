@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitados </title>
+    <link rel="stylesheet" href="santamar.css">
+</head>
+<body>
+<style>
+
+    .service-cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+        padding: 40px;
+        margin-bottom: 40px;
+    }
+
+    .card {
+        background-color: #c00;
+        color: #fff;
+        width: 250px;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+
+    .card p {
+        font-size: 16px;
+        margin: 10px 0;
+    }
+
+    .card button {
+        background-color: #fff;
+        color: #000;
+        font-weight: bold;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 10px 0;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    .card button:hover {
+        background-color: #c00;
+        color: #fff;
+    }
+
+    .price {
+        font-weight: bold;
+        font-size: 18px;
+        margin-top: auto;
+    }
+
+    .button {
+        background-color: white; 
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer; 
+        border-radius: 5%;
+    }
+
+    
+    .highlighted-card {
+        border: 5px solid #ffd700; 
+        border-style: groove;
+        box-shadow: 0 0 15px rgba(255, 215, 0, 0.5); 
+        background-color: #c00;
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .highlighted-card:hover {
+        transform: scale(1.05); 
+        box-shadow: 0 0 20px rgba(255, 215, 0, 0.7);
+    }
+
+    footer {
+        background-color: #c00;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+        position: relative; 
+        margin-top: 20px; 
+        width: 100%;
+    }
+
+   
+
+</style>
+
+<header class="top-header">
+    <div class="logo-contact">
+        <img src="SANTAMARIA_-_LOGO_1-removebg-preview.png" alt="Logo de Santamaría Auto Services">
+    </div>
+    <div class="contact-number">
+        <img src="https://img.icons8.com/ios-glyphs/30/000000/phone.png" alt="Ícono de teléfono">
+        <span>829-524-9087</span>
+    </div>
+</header>
+
+<header class="nav-header">
+    <nav>
+        <ul>
+            <li><a href="Santamaria.html">INICIO</a></li>
+            <li><a href="Servicios.html">SERVICIOS</a></li>
+            <li><a href="Solicitados.html">MÁS SOLICITADO</a></li>
+            <li><a href="#">CITAS</a></li>
+            <li><a href="#">AYUDA</a></li>
+            <li><a href="#">PREGUNTAS</a></li>
+        </ul>
+        <div class="search-container">
+            <input type="text" placeholder="Buscar">
+            <button><img width="12" height="12" src="icons8-búsqueda-20.png" alt="search icon"></button>
+        </div>
+    </nav>
+</header>
+
+<section class="service-cards">
+   
+
+    <div class="card highlighted-card">
+        <h3> Cambio de aceite</h3>
+        <img src="CAMBIO DE ACEITE.jpg" alt="Cambio de batería">
+       <p>Reemplazamos el aceite del motor y el filtro para asegurar la lubricación adecuada, reducir el desgaste y extender la vida útil del motor.</p>
+        <a href="login.html" class="button">Hacer cita</a>
+        <p class="price">RD$1,200</p>
+    </div>
+ 
+    <div class="card highlighted-card">
+        <h3> Cambio de batería</h3>
+        <img src="CAMBIO DE BATERIA.jpg" alt="Cambio de batería">
+        <p>Cuando cambiamos la batería, estamos sustituyendo esa fuente de energía que enciende tu motor, luces, radio y todos los sistemas electrónicos de tu vehículo.</p>
+        <a href="login.html" class="button">Hacer cita</a>
+        <p class="price">RD$1,200</p>
+    </div>
+    <div class="card highlighted-card">
+        <h3> Cambio de amortiguadores</h3>
+        <img src="cambio-de-amortiguador.jpg" alt="Cambio de amortiguadores">
+        <p>Con el tiempo, se desgastan y pierden eficacia, lo que puede afectar al manejo de tu coche y la comodidad de los pasajeros.</p>
+        <a href="login.html" class="button">Hacer cita</a>
+        <p class="price">RD$1,500</p>
+    </div>
+    <div class="card highlighted-card">
+        <h3> Sistemas de luces</h3>
+        <img src="SISTEMAS DE LUCES.jpg" alt="Sistemas de luces">
+        <p>Revisamos y reparamos todo tipo de luces, desde los faros delanteros hasta las luces de freno, posición y niebla.</p>
+        <a href="login.html" class="button">Hacer cita</a>
+        <p class="price">RD$1,000</p>
+    </div>
+</section>
+
+<footer>
+    <p>Copyright © 2024 Santamaría Auto Services. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
